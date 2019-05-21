@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/shuming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="书名"/>
+        <EditText
+            android:id="@+id/chubanshe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="出版社"/>
+        <EditText
+            android:id="@+id/jiage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="价格"/>
+        <EditText
+            android:id="@+id/yema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="页码"/>
+        <EditText
+            android:id="@+id/zuozhe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="作者"/>
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加"/>
+
+        <Button
+            android:id="@+id/select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="点击查询书目信息"/>
+    </LinearLayout>
+
+</LinearLayout>
